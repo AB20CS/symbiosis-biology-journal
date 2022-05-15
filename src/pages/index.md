@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Alex Murphy
+title: Symbiosis Biology Journal
 image: /img/home-jumbotron.jpg
-heading: Alex Murphy
-subheading: Developer with a flair for design
+heading: Symbiosis Biology Journal
+subheading: We make science accessible for everyone!
 ---
