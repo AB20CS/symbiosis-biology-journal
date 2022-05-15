@@ -41,7 +41,7 @@ export const BlogPostTemplate = ({
             </h1>
             <p className="blogPostDescription">{description}</p>
             
-            <p className="blogPostedDetails">Posted by <span className="blogPostAuthor">Simar Mann Singh</span> on <span className="blogPostDate">{date}</span>  </p>
+            <p className="blogPostedDetails">Posted on <span className="blogPostDate">{date}</span>  </p>
 
             <div className="line"></div>
 
