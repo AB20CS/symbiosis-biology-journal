@@ -41,10 +41,10 @@ const Navbar = class extends React.Component {
         <div className="container flex-around">
           <div className="navbar-brand logo">
             <Link to="/" className="navbar-item" title="Logo">
-              <h1>Brand | Logo</h1>
-            </Link>
-              <GitHubButton href="https://github.com/simarmannsingh">Follow</GitHubButton>
-            {/* Hamburger menu */}
+              <h1>Symbiosis Biology Journal</h1>
+//             </Link>
+//               <GitHubButton href="https://github.com/simarmannsingh">Follow</GitHubButton>
+//             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
