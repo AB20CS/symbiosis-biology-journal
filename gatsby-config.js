@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Netlify CMS modern blog web-app',
+    title: 'Symbiosis Biology Journal',
     description:
-      'This public repo is an example blog web-app that is built with Gatsby using Netlify CMS. It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'The official website for the Symbiosis Biology Journal Club at the University of Toronto.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

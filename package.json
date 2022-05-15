@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-netlifycms-modernblog",
-  "description": "Gatsby Netlify CMS modern blog",
+  "name": "uoft-symbiosis",
+  "description": "Symbiosis Biology Journal",
   "version": "1.2.0",
-  "author": "Simar Mann Singh",
+  "author": "Anindro Bhattacharya",
   "dependencies": {
     "@deckdeckgo/highlight-code": "^3.3.1",
     "bulma": "^0.9.0",
