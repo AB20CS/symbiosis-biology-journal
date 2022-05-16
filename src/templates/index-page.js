@@ -55,7 +55,7 @@ export const IndexPageTemplate = ({
                
                 <div >
                   <h4 className="recent-posts">
-                    Recent Blog Posts
+                    Recent Articles
                   </h4>
 
                   <BlogRoll />
