@@ -1,6 +1,6 @@
 ---
 templateKey: 'blog-post'
-title: 'Opening Pathways in the Treatment of Alzheimer\'s Disease (Advanced Read)'
+title: 'Opening Pathways in the Treatment of Alzheimer’s Disease (Advanced Read)'
 date: 2020-01-09T15:04:10.000Z
 featuredpost: true
 featuredimage: /img/ad-pathways/ad-pathways.png
