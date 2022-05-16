@@ -1,7 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: 'Opening Pathways in the Treatment of Alzheimer’s Disease (Advanced Read)'
-date: 2020-01-09T15:04:10.000Z
+date: 2021-01-09T15:04:10.000Z
 featuredpost: true
 featuredimage: /img/ad-pathways/ad-pathways.PNG
 description: Kanza Mirza, Arabie Sathivel, and Mary Bernadette Villareal (edited by Seliya Mawani, Miranda Bie)
