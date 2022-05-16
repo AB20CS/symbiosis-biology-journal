@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Opening Pathways in the Treatment of Alzheimer’s Disease (Advanced Read)'
 date: 2020-01-09T15:04:10.000Z
 featuredpost: true
-featuredimage: /img/ad-pathways/ad-pathways.png
+featuredimage: /src/img/ad-pathways/ad-pathways.PNG
 description: Kanza Mirza, Arabie Sathivel, and Mary Bernadette Villareal (edited by Seliya Mawani, Miranda Bie)
 tags:
   - alzheimers-disease
@@ -13,7 +13,7 @@ tags:
 # What is Alzheimer’s disease? 
 Alzheimer’s disease (AD) is one of the most common causes of dementia, with a diagnosis of approximately 44 million people worldwide. This number is projected to reach 100 million by 2050. Despite the prevalence of the disease, there is no cure and scientists are still in pursuit of finding the most feasible and optimal treatment option. Alzheimer’s disease is characterized by insoluble protein plaque deposits, which are abnormal clumps of protein that disrupt signaling between neurons, and neurofibrillary tangles which ultimately result in neuronal death (see Figure 1). Current treatments mainly only focus on treating the symptoms, but progressive treatments and improved methodology to gain access to these diseased areas of the brain are continuously being discovered. One obstacle to treatment is the blood-brain barrier, which prevents both exposure to harmful chemicals and the delivery of medicine to the brain, imposing size and biochemical restrictions for molecules. 
 
-![Figure 1](/img/ad-pathways/ad-pathways-fig1.png)
+![Figure 1](/src/img/ad-pathways/ad-pathways-fig1.PNG)
 
 
 # What causes Alzheimer’s?
@@ -22,7 +22,7 @@ Alzheimer’s disease (AD) is one of the most common causes of dementia, with a 
 # Microbubbles: A solution in progress
 Researchers at the Sunnybrook Research Institute (associated with the University of Toronto)  display a new avenue of treatment for brain diseases, a method that involves using small gas-filled bubbles (microbubbles) and MRI-guided focused ultrasound to reversibly and non-surgically widen blood vessels, increasing their permeability. By changing vessel permeability through the vibration of microbubbles, antibodies (immune system proteins) can temporarily pass through the blood-brain barrier and call the immune system to destroy the β-amyloid and hyperphosphorylated tau. This disruption itself has shown to increase brain growth, prevent spatial memory deficits, and reduce plaque burden. 
 
-![Figure 2](/img/ad-pathways/ad-pathways-fig2.png)
+![Figure 2](/src/img/ad-pathways/ad-pathways-fig2.PNG)
 
 
 # Aducanumab: A temporary solution 
@@ -30,7 +30,7 @@ Current treatments only treat the symptoms of Alzheimer’s rather than the caus
 
 Phosphorylated tau (neurofibrillary tangles) are triggered when the plaque accumulates and are a direct cause for the symptoms associated with the disease. Drugs targeting over-phosphorylated tau are also in development. New treatments are being developed to prevent the accumulation of neurofibrillary tangles in the hippocampus and spinal cord. For example, the administration of lithium decelerates the rate of phosphorylation of tau proteins while minimizing the levels of tau proteins already present. 
 
-![Figure 3](/img/ad-pathways/ad-pathways-fig3.png)
+![Figure 3](/src/img/ad-pathways/ad-pathways-fig3.PNG)
 
 # Hope for the future
 
