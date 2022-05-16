@@ -16,3 +16,5 @@ title: About Us
 # Our Mission
 The purpose of the Symbiosis Biology Journal Club is to showcase ongoing research at the University of Toronto, relevant discoveries in the biological sciences, and illuminating the natural world in Toronto through student publications written in simple diction. Additionally, we attempt to promote and strengthen academic literacy through events for the student body.
 
+# Contact
+You can always reach out to us by email at symbiosis.utsc@studentorg.utoronto.ca or through the "Contact" tab on this website. 
