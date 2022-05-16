@@ -1,13 +1,14 @@
 ---
 templateKey: 'blog-post'
-title: 'Opening Pathways in the Treatment of Alzheimer's Disease (Advanced Read)'
-date: 2020-01-09T15:04:10.000Z
+title: 'Sensible headings are seldom used'
+date: 2020-12-22T15:04:10.000Z
 featuredpost: true
-featuredimage: /img/ad-pathways/ad-pathways.png
-description: Kanza Mirza, Arabie Sathivel, and Mary Bernadette Villareal (edited by Seliya Mawani, Miranda Bie).
+featuredimage: /img/image1.png
+description: Quis excepturi reiciendis beatae pariatur fugiat. Et delectus distinctio reprehenderit quos
 tags:
-  - alzheimers
-  - neuroscience
+  - how to
+  - tech
+  - programming
 ---
 
 # What is Alzheimer’s disease? 
