@@ -1,6 +1,6 @@
 ---
 templateKey: 'blog-post'
-title: 'How the UTSC Valley is Helping Increase Brain Health'
+title: 'How the UTSC Valley is Helping Improve Brain Health'
 date: 2022-01-02T15:04:10.000Z
 featuredpost: true
 featuredimage: /utsc-valley/utsc-valley1.PNG
@@ -32,7 +32,7 @@ University of Toronto Scarborough, recognizing this need, developed the Universi
 Arslan, Jamshed, Gilani Anwar-ul-Hassan, Jamshed Humair, Khan F Sumaiya, Kamal A Mohammad. 2020. Edible Nuts for Memory. Current Pharmaceutical Design. [2020; accessed 2021 Feb 10]; 26(37), 4712-4720. Available from: doi 10.2174/1381612826666200806095649
 
 Aune Dagfinn, Giovannucci Edward, Boffetta Paolo, Padnes T Lars, Keum NaNa, Norat Teresa, Greenwood C Darren, Riboli Elio, Vatten J Lars, Tonstad Serena. 2017. Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality-a systematic review and dose-response meta-analysis of prospective studies. International Journal of Epidemiology. [2017 Jun 1; accessed 2020 Nov 17];1;46(3):1029-1056. Available from: https://academic.oup.com/ije/article/46/3/1029/3039477
-Centers for Disease Control and Prevention. LDL and HDL Cholesterol [internet]: "Bad" and "Good" Cholesterol. [2020 Jan 31; accessed 2021 Feb 15]. Available from: https://www.cdc.gov/cholesterol/ldl_hdl.htm#:~:text=LDL%20(low%2Ddensity%20lipoprotein),for%20heart%20disease%20and%20stroke
+Centers for Disease Control and Prevention. LDL and HDL Cholesterol [internet]: "Bad" and "Good" Cholesterol. [2020 Jan 31; accessed 2021 Feb 15]. Available from: https://www.cdc.gov/cholesterol/ldl_hdl.htm
 
 Chauhan Abha Chauhan, Chauhan Ved. 2020. Beneficial Effects of Walnuts on Cognition and Brain Health. [2020 Feb 20; accessed 2021 Feb 1];12(2):550. Available from:  https://www.mdpi.com/2072-6643/12/2/550
 
