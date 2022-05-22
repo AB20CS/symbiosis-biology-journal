@@ -5,7 +5,7 @@ import {Link} from 'gatsby'
 const NotFoundPage = () => (
   <Layout>
     <div className="content center flex flex-col"style={{minHeight: '65vh'}}>
-      <h1>Oopssss....</h1>
+      <h1>Sorry...</h1>
       <p>That page cannot be found.</p>
       <span>
       Go back to the <Link to="/" > Homepage </Link>
