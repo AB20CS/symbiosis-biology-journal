@@ -14,7 +14,7 @@ class SpotlightRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-12" key={post.id}>
               <article
-                className={`spotlight-list-item ${
+                className={`blog-list-item ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
@@ -32,12 +32,12 @@ class SpotlightRoll extends React.Component {
                   ) : null}
 
                   <p className="post-meta">
-                    <span className="subtitle is-block spotlightRollDate">
+                    <span className="subtitle is-block blogRollDate">
                       {post.frontmatter.date}
                     </span>
                     
                     <Link
-                      className="title has-text-primary is-size-5 spotlightRollTitle"
+                      className="title has-text-primary is-size-5 blogRollTitle"
                       to={post.fields.slug}
                     >
                       {ClipText(post.frontmatter.title, 56)}
@@ -46,7 +46,7 @@ class SpotlightRoll extends React.Component {
 
                 </header>
                 
-                <p className="spotlightRollExcerpt flex flex-col-around">
+                <p className="blogRollExcerpt flex flex-col-around">
                 {ClipText(post.frontmatter.description, 70)}
                 </p>
                 <Link className="btn" to={post.fields.slug}>
@@ -78,7 +78,7 @@ export default () => (
       query SpotlightRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "spotlight-post" } } }
         ) {
           edges {
             node {

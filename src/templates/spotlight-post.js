@@ -32,21 +32,21 @@ export const SpotlightPostTemplate = ({
           <div className="flex flex-col-around"
               >
                 
-            <img src={PostImage} className="spotlightPostFeatureImage" style={{width:'100vw'}} alt="NOTE: The FeaturedImage and publishedDate have been disabled in preview mode as their implementation will change in the upcoming builds and are in unfinished state as of now."></img>
+            <img src={PostImage} className="blogPostFeatureImage" style={{width:'100vw'}} alt="NOTE: The FeaturedImage and publishedDate have been disabled in preview mode as their implementation will change in the upcoming builds and are in unfinished state as of now."></img>
 
-            <div className="spotlightContainer" >
+            <div className="blogContainer" >
             <h1
                 style={{fontFamily:'Poppins, sans-serif', color:'#000', fontWeight:'700', fontSize: '2.8rem' }}>
               {title}
             </h1>
-            <p className="spotlightPostDescription">{description}</p>
+            <p className="blogPostDescription">{description}</p>
             
-            <p className="spotlightPostedDetails">Posted on <span className="spotlightPostDate">{date}</span>  </p>
+            <p className="blogPostedDetails">Posted on <span className="blogPostDate">{date}</span>  </p>
 
             <div className="line"></div>
 
-            <div className="spotlightPostContentsContainer">
-              <PostContent className="spotlightPostContent" content={content} />
+            <div className="blogPostContentsContainer">
+              <PostContent className="blogPostContent" content={content} />
               
               {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>
@@ -91,7 +91,7 @@ const SpotlightPost = ({ data }) => {
   const { markdownRemark: post } = data    
   return (
     <Layout>
-      <SpotlightPostTemplate
+      <BlogPostTemplate
         content={post.html}
         image={post.frontmatter.featuredimage}
         contentComponent={HTMLContent}
