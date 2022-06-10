@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import SpotlightRoll from '../../components/SpotlightRoll'
 
-export default class BlogIndexPage extends React.Component {
+export default class SpotlightIndexPage extends React.Component {
   render() {
     return (
       <Layout>
@@ -27,7 +27,7 @@ export default class BlogIndexPage extends React.Component {
             <div className="section">
               <div className="column is-12">
               <div className="content">
-                <BlogRoll />
+                <SpotlightRoll />
               </div>
               </div>
             </div>
