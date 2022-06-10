@@ -21,6 +21,14 @@ export default class SpotlightIndexPage extends React.Component {
           >
             Researcher Spotlight
           </h1>
+          <p
+            className="has-text-weight-bold is-size-1"
+            style={{
+              color: 'black',
+            }}
+          >
+            Coming soon!
+          </p>
         </div>
         <section className="section section--gradient">
           <div className="container">
