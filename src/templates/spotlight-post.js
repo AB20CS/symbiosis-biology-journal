@@ -91,7 +91,7 @@ const SpotlightPost = ({ data }) => {
   const { markdownRemark: post } = data    
   return (
     <Layout>
-      <BlogPostTemplate
+      <SpotlightPostTemplate
         content={post.html}
         image={post.frontmatter.featuredimage}
         contentComponent={HTMLContent}
