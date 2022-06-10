@@ -6,7 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const BlogPostTemplate = ({
+export const SpotlightPostTemplate = ({
   image,
   content,
   contentComponent,
@@ -23,7 +23,7 @@ export const BlogPostTemplate = ({
     PostImage = image.childImageSharp.fluid.src
     console.log(PostImage);
   }
-  scrollToBlog()
+  scrollToSpotlight()
   return (
     <section>
       {helmet || ''}
@@ -32,21 +32,21 @@ export const BlogPostTemplate = ({
           <div className="flex flex-col-around"
               >
                 
-            <img src={PostImage} className="blogPostFeatureImage" style={{width:'100vw'}} alt="NOTE: The FeaturedImage and publishedDate have been disabled in preview mode as their implementation will change in the upcoming builds and are in unfinished state as of now."></img>
+            <img src={PostImage} className="spotlightPostFeatureImage" style={{width:'100vw'}} alt="NOTE: The FeaturedImage and publishedDate have been disabled in preview mode as their implementation will change in the upcoming builds and are in unfinished state as of now."></img>
 
-            <div className="blogContainer" >
+            <div className="spotlightContainer" >
             <h1
                 style={{fontFamily:'Poppins, sans-serif', color:'#000', fontWeight:'700', fontSize: '2.8rem' }}>
               {title}
             </h1>
-            <p className="blogPostDescription">{description}</p>
+            <p className="spotlightPostDescription">{description}</p>
             
-            <p className="blogPostedDetails">Posted on <span className="blogPostDate">{date}</span>  </p>
+            <p className="spotlightPostedDetails">Posted on <span className="spotlightPostDate">{date}</span>  </p>
 
             <div className="line"></div>
 
-            <div className="blogPostContentsContainer">
-              <PostContent className="blogPostContent" content={content} />
+            <div className="spotlightPostContentsContainer">
+              <PostContent className="spotlightPostContent" content={content} />
               
               {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>
@@ -70,14 +70,14 @@ export const BlogPostTemplate = ({
 )
 }
 
-const scrollToBlog = () => {  
+const scrollToSpotlight = () => {  
   if(typeof window !== 'undefined')
   {
     window.scrollTo({top:400, behavior:"smooth"})
   }
 }
 
-BlogPostTemplate.propTypes = {  
+SpotlightPostTemplate.propTypes = {  
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.node.isRequired,
   date : PropTypes.string,
@@ -87,18 +87,18 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const SpotlightPost = ({ data }) => {
   const { markdownRemark: post } = data    
   return (
     <Layout>
-      <BlogPostTemplate
+      <SpotlightPostTemplate
         content={post.html}
         image={post.frontmatter.featuredimage}
         contentComponent={HTMLContent}
         date={post.frontmatter.date}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Spotlight">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -113,16 +113,16 @@ const BlogPost = ({ data }) => {
   )
 }
 
-BlogPost.propTypes = {
+SpotlightPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default BlogPost
+export default SpotlightPost
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query SpotlightPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
