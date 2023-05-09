@@ -2,4 +2,4 @@
 
 The [official website](https://uoft-symbiosis.netlify.app/) for the Symbiosis Biology Journal Club at the University of Toronto.
 
-![image](https://user-images.githubusercontent.com/69637288/168454953-39758c57-451a-467c-a722-60ae4556c8e5.png)
+![icon](https://github.com/AB20CS/symbiosis-biology-journal/assets/69637288/79a776e0-978c-4f82-b9c3-a00f1440e44d)
