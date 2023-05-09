@@ -3,7 +3,7 @@ templateKey: 'about-page'
 path: /about
 title: About Us
 ---
-![image](https://user-images.githubusercontent.com/69637288/168454953-39758c57-451a-467c-a722-60ae4556c8e5.png)
+![icon](https://github.com/AB20CS/symbiosis-biology-journal/assets/69637288/f06a6534-af16-44a6-abb9-699faa24be54)
 ## Symbiosis.
 
 #### /ˌsimbīˈōsəs,ˌsimbēˈōsəs/
