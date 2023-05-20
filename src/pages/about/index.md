@@ -3,7 +3,8 @@ templateKey: 'about-page'
 path: /about
 title: About Us
 ---
-![icon](https://github.com/AB20CS/symbiosis-biology-journal/assets/69637288/f06a6534-af16-44a6-abb9-699faa24be54)
+<img src="https://github.com/AB20CS/symbiosis-biology-journal/assets/69637288/f06a6534-af16-44a6-abb9-699faa24be54"  width="30%" height="30%">
+
 ## Symbiosis.
 
 #### /ˌsimbīˈōsəs,ˌsimbēˈōsəs/
@@ -17,4 +18,4 @@ title: About Us
 The purpose of the Symbiosis Biology Journal Club is to showcase ongoing research at the University of Toronto, relevant discoveries in the biological sciences, and illuminating the natural world in Toronto through student publications written in simple diction. Additionally, we attempt to promote and strengthen academic literacy through events for the student body.
 
 # Contact
-If you have any suggestions for future topics or any general concerns, feel free to reach out to us! You can always contact us by email at symbiosis.utsc@studentorg.utoronto.ca or through the "Contact" tab on this website. 
+If you have any suggestions for future topics or any general concerns, feel free to reach out to us! You can always contact us by email at [symbiosis.utsc@studentorg.utoronto.ca](mailto:symbiosis.utsc@studentorg.utoronto.ca) or through the "Contact" tab on this website. 
