@@ -1,4 +1,6 @@
-# Symbiosis Biology Journal
+# Symbiosis Biology Journal 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e060c831-7333-4e4c-848a-742f3a1b0709/deploy-status)](https://app.netlify.com/sites/uoft-symbiosis/deploys)
+
 
 The [official website](https://uoft-symbiosis.netlify.app/) for the Symbiosis Biology Journal Club at the University of Toronto.
 
